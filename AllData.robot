@@ -4,9 +4,9 @@ Library                       DataDriver    reader_class=TestDataApi    name=Lea
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 Test Template                 Entering A Lead With Data
-
+# Added it in CRT Org
 *** Test Cases ***
-Entering A Lead With Data with ${First Name} ${Last Name}    ${Phone}    ${Company}    ${Website}
+Entering  A Lead With Data with ${First Name} ${Last Name}    ${Phone}    ${Company}    ${Website}
     [Tags]                    AllData
 
 *** Keywords ***
